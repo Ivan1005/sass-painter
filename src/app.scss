@@ -1,3 +1,48 @@
 @import 'partials/_variables.scss';
 @import 'partials/_mixins.scss';
 @import 'partials/_common.scss';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  .center{
+      height: 100%;
+    ul{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 18px;
+      li{
+        width: 8%;
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        img {
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+i {
+  font-size: 10px;
+  color: grey;
+}
+
+.box-1 {
+  height: 500px;
+  background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
