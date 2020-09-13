@@ -45,5 +45,36 @@ i {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.box-1 .left {
+  width: 35%;
+  margin-left: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 35px;
+}
+
+.box-1 .left h2 {
+  padding-top: 40px;
+}
+
+.box-1 .left .left-box {
+  padding-top: 20px;
+}
+
+.box-1 .left .left-box ul {
+  list-style: none;
+}
+
+.box-1 .right {
+  width: 25%;
+  background-color: red;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
