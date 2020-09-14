@@ -24,5 +24,13 @@
   },
   "dependencies": {
     "jquery": "^3.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan1005/sass-painter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivan1005/sass-painter/issues"
+  },
+  "homepage": "https://github.com/Ivan1005/sass-painter#readme"
 }

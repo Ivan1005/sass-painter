@@ -190,5 +190,28 @@ footer .box-footer {
 
 footer .box-footer .box-footer-column {
   padding-top: 40px;
+  line-height: 20px;
+}
+
+footer .box-footer .box-footer-column p {
+  padding: 10px;
+  font-size: 22px;
+}
+
+footer .box-footer .box-footer-column ul {
+  color: #4d4d4d;
+  list-style: none;
+}
+
+footer .footer-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+footer .footer-bottom div i {
+  font-size: 40px;
+  padding: 5px;
 }
 

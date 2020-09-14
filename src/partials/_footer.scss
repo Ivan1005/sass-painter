@@ -7,6 +7,25 @@ footer {
     margin: 20px auto;
     .box-footer-column{
       padding-top: $padding40;
+      line-height: 20px;
+      p{
+        padding: $padding10;
+        font-size: 22px;
+      }
+      ul{
+        color:#4d4d4d;
+        list-style: none;
+      }
+    }
+  }
+  .footer-bottom{
+    @include flex(flex-end,flex-end);
+    padding: $padding40;
+    div{
+      i{
+        font-size: 40px;
+        padding: 5px;
+      }
     }
   }
 }

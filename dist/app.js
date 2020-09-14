@@ -11050,8 +11050,8 @@ function prevImage() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\matte\Desktop\sass-painter\sass-painter\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\matte\Desktop\sass-painter\sass-painter\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\matte\Desktop\esercizio-sass\sass-painter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\matte\Desktop\esercizio-sass\sass-painter\src\app.scss */"./src/app.scss");
 
 
 /***/ })
