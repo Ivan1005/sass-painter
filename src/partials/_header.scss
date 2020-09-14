@@ -1,3 +1,5 @@
+
+
 header {
   height: 100px;
   background-color: $colorBlack;
@@ -13,10 +15,18 @@ header {
           text-decoration: none;
           color: $colorWhite;
           padding:20px  30px ;
-          &:hover {
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top:18%;
             background-color: #f1f1f1;
-            color: $colorBlack;
-          }
+                a{
+                  width: 100%;
+                  display: block;
+                  color:$colorBlack;
+                  padding: $padding10;
+                }
         }
         img {
           height: 24px;
@@ -24,4 +34,7 @@ header {
       }
     }
   }
+}
+.active{
+  display: block;
 }

@@ -33,13 +33,26 @@ header .center ul li a {
   padding: 20px 30px;
 }
 
-header .center ul li a:hover {
+header .center ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 18%;
   background-color: #f1f1f1;
+}
+
+header .center ul li .dropdown-content a {
+  width: 100%;
+  display: block;
   color: black;
+  padding: 10px;
 }
 
 header .center ul li img {
   height: 24px;
+}
+
+.active {
+  display: block;
 }
 
 .box-1 {

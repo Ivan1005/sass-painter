@@ -10980,6 +10980,16 @@ return jQuery;
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 $(document).ready(function () {
+  $(".dropdown").mouseover(function () {
+    $(".drop").css("background-color", "#f1f1f1");
+    $(".drop").css("color", "black");
+    $("#myDropdown").show();
+  });
+  $(".dropdown").mouseleave(function () {
+    $(".drop").css("background-color", "black");
+    $(".drop").css("color", "white");
+    $("#myDropdown").hide();
+  });
   $(".prev").click(function () {
     prevImage();
   });
