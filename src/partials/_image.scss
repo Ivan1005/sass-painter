@@ -1,0 +1,5 @@
+.img {
+  height: 500px;
+  @include bcg (url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg'),no-repeat,center,cover);
+  background-attachment: fixed;
+}

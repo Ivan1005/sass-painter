@@ -289,3 +289,12 @@ footer .footer-bottom div i {
   color: #333;
 }
 
+.img {
+  height: 500px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
