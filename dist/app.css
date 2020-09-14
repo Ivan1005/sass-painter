@@ -24,15 +24,18 @@ header .center ul {
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 18px;
-}
-
-header .center ul li {
-  width: 8%;
+  list-style: none;
 }
 
 header .center ul li a {
   text-decoration: none;
   color: white;
+  padding: 20px 30px;
+}
+
+header .center ul li a:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
 
 header .center ul li img {
