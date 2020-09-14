@@ -1,0 +1,12 @@
+footer {
+  height: 300px;
+  background-color: #ececec;
+  .box-footer{
+    @include flex(space-around,center);
+    width: 80%;
+    margin: 20px auto;
+    .box-footer-column{
+      padding-top: $padding40;
+    }
+  }
+}

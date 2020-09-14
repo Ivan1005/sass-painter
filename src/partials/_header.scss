@@ -1,0 +1,22 @@
+header {
+  height: 100px;
+  background-color: $colorBlack;
+  .center{
+      height: $height100;
+    ul{
+      height: $height100;
+      @include flex(center,flex-end);
+      padding-bottom: 18px;
+      li{
+        width: 8%;
+        a{
+          text-decoration: none;
+          color: $colorWhite;
+        }
+        img {
+          height: 24px;
+        }
+      }
+    }
+  }
+}

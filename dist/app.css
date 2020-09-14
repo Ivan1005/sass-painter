@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+i {
+  font-size: 10px;
+  color: grey;
+}
+
 header {
   height: 100px;
   background-color: black;
@@ -34,11 +39,6 @@ header .center ul li img {
   height: 24px;
 }
 
-i {
-  font-size: 10px;
-  color: grey;
-}
-
 .box-1 {
   height: 500px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
@@ -54,8 +54,8 @@ i {
   margin-left: 20%;
   color: white;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
+  flex-direction: column;
   line-height: 35px;
 }
 
@@ -178,5 +178,17 @@ i {
 footer {
   height: 300px;
   background-color: #ececec;
+}
+
+footer .box-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+footer .box-footer .box-footer-column {
+  padding-top: 40px;
 }
 

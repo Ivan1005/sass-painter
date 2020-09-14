@@ -1,0 +1,11 @@
+@mixin flex ($justify-content,$align-items){
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+};
+@mixin bcg ($background-image,$background-repeat,$background-position,$background-size){
+  background-image: $background-image;
+  background-repeat:$background-repeat;
+  background-position: $background-position;
+  background-size: $background-size;
+};

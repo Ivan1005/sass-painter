@@ -1,0 +1,57 @@
+.box-1 {
+  height: 500px;
+  @include bcg (url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg'),no-repeat,center,cover);
+  display: flex;
+  justify-content: center;
+  .left{
+    width: 35%;
+    margin-left: 20%;
+    color: $colorWhite;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 35px;
+    h2{
+      padding-top: $padding40;
+    }
+    .left-box{
+      padding-top: $padding20;
+      ul{
+        list-style: none;
+      }
+    }
+
+  }
+  .right{
+    width: 25%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    .top{
+      width: $height100;
+      height: 50%;
+      display: flex;
+      .top-left{
+        color: $colorWhite;
+        width: 50%;
+        padding: $padding60 $padding10;
+      }
+      .top-right{
+        height: 70%;
+        width: 50%;
+        @include flex(flex-end,center);
+        img{
+          height: 50%;
+          padding-right:$padding10;
+        }
+      }
+    }
+    .bottom{
+      padding: $padding40 $padding20;
+      .offer{
+        color: $colorBlack;
+        background-color: rgba(255,255,255,.9);
+        padding: $padding10;
+      }
+    }
+  }
+}
