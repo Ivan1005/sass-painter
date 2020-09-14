@@ -5,6 +5,14 @@
     width: 60%;
     text-align: $textCenter;
     margin: 20px auto;
+    p{
+      line-height: 20px;
+      color: #333;
+    }
+    & p:first-of-type {
+      font-size: 34px;
+      padding: $padding40;
+    }
   }
 }
 .slider-wrapper {

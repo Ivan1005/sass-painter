@@ -1,0 +1,24 @@
+.section-2{
+  height: 500px;
+  @include bcg (url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg'),no-repeat,center,cover);
+  .box-sec-2{
+    margin:auto;
+    height: 100%;
+    width: 80%;
+    @include flex (space-around,center);
+    .sec{
+      text-align: $textCenter;
+      width: 40%;
+      height: 40%;
+      background-color: $colorWhite;
+      p {
+        font-size: 18px;
+        padding: $padding20;
+      }
+      & p:first-of-type {
+        font-size: 30px;
+        color: #333;
+      }
+    }
+  }
+}

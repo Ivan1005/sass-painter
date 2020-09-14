@@ -149,6 +149,16 @@ header .center ul li img {
   margin: 20px auto;
 }
 
+.carosello .top-carosello p {
+  line-height: 20px;
+  color: #333;
+}
+
+.carosello .top-carosello p:first-of-type {
+  font-size: 34px;
+  padding: 40px;
+}
+
 .slider-wrapper {
   position: relative;
   margin: auto;
@@ -211,7 +221,7 @@ footer .box-footer {
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  margin: 20px auto;
+  margin: auto;
 }
 
 footer .box-footer .box-footer-column {
@@ -243,5 +253,39 @@ footer .footer-bottom {
 footer .footer-bottom div i {
   font-size: 40px;
   padding: 5px;
+}
+
+.section-2 {
+  height: 500px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-2 .box-sec-2 {
+  margin: auto;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-2 .box-sec-2 .sec {
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  background-color: white;
+}
+
+.section-2 .box-sec-2 .sec p {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.section-2 .box-sec-2 .sec p:first-of-type {
+  font-size: 30px;
+  color: #333;
 }
 

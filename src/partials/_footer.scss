@@ -3,7 +3,7 @@ footer {
   .box-footer{
     @include flex(space-around,center);
     width: 80%;
-    margin: 20px auto;
+    margin: auto;
     .box-footer-column{
       padding-top: $padding40;
       line-height: 20px;
