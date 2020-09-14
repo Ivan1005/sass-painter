@@ -1,5 +1,4 @@
 footer {
-  height: 300px;
   background-color: #ececec;
   .box-footer{
     @include flex(space-around,center);
@@ -15,6 +14,9 @@ footer {
       ul{
         color:#4d4d4d;
         list-style: none;
+        .li-he{
+          height: 40px;
+        }
       }
     }
   }

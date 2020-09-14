@@ -34,6 +34,15 @@
         color: $colorWhite;
         width: 50%;
         padding: $padding60 $padding10;
+        p{
+          padding: $padding20 0;
+        }
+        button{
+          background: #009cff;
+          border: 1px solid #009cff;
+          padding: $padding10 $padding40;
+          color: $colorWhite;
+        }
       }
       .top-right{
         height: 70%;
@@ -46,11 +55,21 @@
       }
     }
     .bottom{
-      padding: $padding40 $padding20;
+      padding: 30px $padding20;
       .offer{
         color: $colorBlack;
         background-color: rgba(255,255,255,.9);
         padding: $padding10;
+        h3{
+          color:#2c2c2c;
+        }
+        p{
+          color: #333;
+        }
+        a{
+          text-decoration: none;
+          color:#009cff;
+        }
       }
     }
   }
